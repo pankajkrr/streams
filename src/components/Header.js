@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import GoogleAuth from './GoogleAuth';
 
 const Header =() =>{
     return (
@@ -10,6 +11,7 @@ const Header =() =>{
                 </div>
                 <div className="col-md-6">
                     <Link to="/" className="list"> All Streams</Link>
+                    <GoogleAuth />
                 </div>
 
             </div>
